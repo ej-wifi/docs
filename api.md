@@ -1,6 +1,8 @@
 # API
 
-## interface
+## external function
+
+## variable defination
 
 ```
  typedef enum
@@ -30,8 +32,6 @@ typedef int (*ej_callback_t)(void);
 ```
 typedef struct ej_ctx_t* ej_handle_t;
 ```
-
-## external function
 
 ### cloud API
 
