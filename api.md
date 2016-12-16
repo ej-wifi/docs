@@ -73,7 +73,7 @@ ej_ret_t ej_disconnect(ej_handle_t *handler);
 ```
 
 ```
-ej_ret_t ej_set_network(int status)
+ej_ret_t ej_set_network_staus(int status)
 ```
 
 ### log 
