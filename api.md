@@ -2,7 +2,7 @@
 
 ## external function
 
-## variable defination
+### variable defination
 
 ```
  typedef enum
