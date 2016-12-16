@@ -103,6 +103,8 @@ TODO:
 
 ### timer
 
+#### timer of mqtt
+
 ```
 void timer_init(Timer *timer);
 ```
@@ -118,6 +120,8 @@ void time_countdown(Timer* timer, unsigned int timeout);
 ```
 int time_left(Timer *timer);
 ```
+
+#### timer of thread level
 
 ```
 int timer_create(timer_t *timer, const char *name, timer_tick ticks, void (*call_back)(ej_timer_arg_t), void *cb_arg, timer_reload_t reload, timer_activate_t activate);
