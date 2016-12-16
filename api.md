@@ -99,7 +99,7 @@ WIFI and machine OTA
 TODO:
 ```
 
-## internal function
+## internal function (platform)
 
 ### timer
 
