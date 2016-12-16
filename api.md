@@ -1,8 +1,8 @@
 # API
 
-## external function
+## exposed variable and function
 
-### variable defination
+### variable
 
 ```
  typedef enum
