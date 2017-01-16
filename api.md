@@ -68,7 +68,11 @@ ej_ret_t ej_disconnect(ej_handle_t *handler);
 ```
 
 ```
-ej_ret_t ej_set_network_staus(int status)
+ej_ret_t ej_set_wifi_version_info(wifi_version_info_t *info)
+```
+
+```
+ej_ret_t ej_set_ota_callback(wifi_ota_callback_t wifi_ota_cb, dev_ota_callback_t dev_ota_cb);
 ```
 
 ### uart communication
@@ -87,8 +91,7 @@ ej_printf(modue, ...);
 ### OTA
 
 ```
-TODO:
-WIFI and machine OTA
+uint8_t ota_set_
 ```
 
 ### smart config
