@@ -4,7 +4,7 @@
 
 ### variable
 
-```
+```c
  typedef enum
  {
      EJ_NOT_SUBSCRIBED      = -13,
