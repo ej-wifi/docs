@@ -313,20 +313,20 @@ void plat_free(void *mem);
 int uart_open(UART_ID uart_id, uint32_t baudrate)
 ```
 
-```
+```c
 void uart_close(UART_ID uart_id);
 ```
 
-```
+```c
 int16_t uart_read(const uint8_t *buf, uint32_t len);
 ```
 
-```
+```c
 int16_t uart_write(uint8_t *buf, uint32_t len);
 ```
 
 ### printf
 
-```
+```c
 int plat_printf(const char *fmt, ...);
 ```
