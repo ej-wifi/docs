@@ -60,7 +60,19 @@ ej_ret_t ej_set_thread_stacksize(ej_handle_t *handle, int size);
 ```
 
 ```
+ej_ret_t ej_set_wifi_version_info(wifi_version_info_t *info);
+```
+
+```
+ej_ret_t ej_set_ota_callback(wifi_ota_callback_t wifi_ota_cb, dev_ota_callback_t dev_ota_cb);
+```
+
+```
 ej_ret_t ej_connect(ej_handle_t *handler);
+```
+
+```
+uint8_t ej_set_incoming_msg_cb(wifi_ota_callback_t wifi_ota_cb);
 ```
 
 ```
@@ -68,12 +80,11 @@ ej_ret_t ej_disconnect(ej_handle_t *handler);
 ```
 
 ```
-ej_ret_t ej_set_wifi_version_info(wifi_version_info_t *info)
+uint8_t ej_put_msg(void *msg, uint16_t length);
 ```
 
-```
-ej_ret_t ej_set_ota_callback(wifi_ota_callback_t wifi_ota_cb, dev_ota_callback_t dev_ota_cb);
-```
+
+
 
 ### uart communication
 
@@ -88,14 +99,8 @@ ej_printf(modue, ...);
 
 ```
 
-### OTA
-
-```
-uint8_t ota_set_
-```
 
 ### smart config
-
 
 
 ```
