@@ -58,7 +58,9 @@ typedef enum {
 typedef void(* ej_swift_connection_callback_t) (ej_swift_connection_event_t event, void *data);
 ```
 
-### cloud API
+### functions
+
+#### cloud API
 
 ```c
 ej_ret_t ej_init_handle(ej_handle_t *handle);
@@ -111,10 +113,10 @@ uint8_t ej_put_msg(void *msg, uint16_t length);
 
 
 
-### uart communication
+#### uart communication
 
 
-### log 
+#### log 
 
 ```c
 TODO:
@@ -125,7 +127,7 @@ ej_printf(modue, ...);
 ```
 
 
-### smart config
+#### smart config
 
 
 ```c
