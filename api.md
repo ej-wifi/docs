@@ -4,6 +4,8 @@
 
 ### variable
 
+#### cloud connection
+
 ```c
  typedef enum
  {
@@ -32,6 +34,8 @@ typedef int (*ej_callback_t)(void);
 ```c
 typedef struct ej_ctx_t* ej_handle_t;
 ```
+
+#### swfit connection
 
 ```c
 typedef enum {
