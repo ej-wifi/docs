@@ -35,12 +35,23 @@ typedef struct ej_ctx_t* ej_handle_t;
 
 ```c
 typedef enum {
-EJ_SWIFT_CONNECTION_STATUS_SEARCH_INFO,
-EJ_SWIFT_CONNECTION_STATUS_LOCKING_CH,
-EJ_SWIFT_CONNECTION_STATUS_LOCKED_CH,
-EJ_SWIFT_CONNECTION_STATUS_TIMEOUT,
-EJ_SWIFT_CONNECTION_STATUS_DONE
+    EJ_SWIFT_CONNECTION_EVENT_SEARCH_INFO,
+    EJ_SWIFT_CONNECTION_EVENT_LOCKING_CH,
+    EJ_SWIFT_CONNECTION_EVENT_LOCKED_CH,
+    EJ_SWIFT_CONNECTION_EVENT_TIMEOUT,
+    EJ_SWIFT_CONNECTION_EVENT_DONE
+} ej_swift_connection_event_t;
+```
+
+```c
+typedef enum {
+    EJ_SWIFT_CONNECTION_STATUS_FAIL = -1,
+    EJ_SWIFT_CONNECTION_STATUS_OK
 } ej_swift_connection_status_t
+```
+
+```c
+typedef void(* ej_swift_connection_callback_t) (ej_swift_connection_event_t event, void *data);
 ```
 
 ### cloud API
