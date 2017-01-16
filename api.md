@@ -104,7 +104,15 @@ ej_printf(modue, ...);
 
 
 ```
-TODO:
+ej_swift_connection_status_t ej_swift_connection_init(const uint8_t *key, const uint8_t key_length, ej_swift_conn_callback cb);
+```
+
+```
+ej_swift_connection_status_t ej_swift_connection_start(uint32_t timeout);
+```
+
+```
+ej_swift_connection_status_t ej_swift_connection_stop(void);
 ```
 
 ## internal function (platform)
