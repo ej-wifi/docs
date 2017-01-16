@@ -1,6 +1,6 @@
 # API
 
-## extern variable and function
+## extern variables and functions
 
 ### variable
 
