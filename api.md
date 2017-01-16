@@ -119,9 +119,10 @@ uint8_t ej_put_msg(void *msg, uint16_t length);
 #### log 
 
 ```c
-TODO:
-set_sdk_log_level()
+set_sdk_log_level();
+```
 
+```c
 ej_printf(modue, ...);
 
 ```
