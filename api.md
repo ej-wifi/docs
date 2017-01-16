@@ -33,6 +33,15 @@ typedef int (*ej_callback_t)(void);
 typedef struct ej_ctx_t* ej_handle_t;
 ```
 
+```c
+typedef enum {
+EJ_SWIFT_CONNECTION_STATUS_SEARCH_INFO,
+EJ_SWIFT_CONNECTION_STATUS_LOCKING_CH,
+EJ_SWIFT_CONNECTION_STATUS_LOCKED_CH,
+EJ_SWIFT_CONNECTION_STATUS_DONE
+} ej_swift_connection_status_t
+```
+
 ### cloud API
 
 ```
