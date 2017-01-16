@@ -1,6 +1,6 @@
 # API
 
-## exposed variable and function
+## extern variable and function
 
 ### variable
 
