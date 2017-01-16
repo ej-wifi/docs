@@ -40,11 +40,6 @@ ej_ret_t ej_init_handle(ej_handle_t *handle);
 ```
 
 ```
-ej_set_config
-```
-
-
-```
 ej_ret_t ej_detroy_handle(ej_handle_t *handle);
 ```
 
@@ -76,6 +71,9 @@ ej_ret_t ej_disconnect(ej_handle_t *handler);
 ej_ret_t ej_set_network_staus(int status)
 ```
 
+### uart communication
+
+
 ### log 
 
 ```
@@ -94,6 +92,8 @@ WIFI and machine OTA
 ```
 
 ### smart config
+
+
 
 ```
 TODO:
