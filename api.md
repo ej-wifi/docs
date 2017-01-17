@@ -151,7 +151,7 @@ ej_swift_connection_status_t ej_swift_connection_get_result(uint8_t *ssid, uint8
 ej_swift_connection_status_t ej_swift_connection_deinit(void);
 ```
 
-## internal function (platform)
+## internal functions (platform)
 
 ### timer
 
